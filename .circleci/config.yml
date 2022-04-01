@@ -8,7 +8,7 @@ orbs:
 jobs:
   build:
     docker:
-    - image: 'cimg/base'
+    - image: cimg/base
     environment:
       IMAGE_NAME: docker-goof
       SNYK_TOKEN: cd6790c4-ed37-4fde-a9bb-9190b8e4539e
