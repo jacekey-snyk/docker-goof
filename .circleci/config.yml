@@ -22,7 +22,7 @@ jobs:
           docker-image-name: '$IMAGE_NAME:test'
           fail-on-issues: false
           monitor-on-build: true
-          project: '${docker-goof}/${.circleci}-container'
+          project: '${docker-goof}/${circleci-project-setup}-container'
           severity-threshold: high
           target-file: Dockerfile
           token-variable: SNYK_TOKEN
